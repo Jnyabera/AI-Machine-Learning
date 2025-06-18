@@ -1,0 +1,29 @@
+Project Title:
+AI-Driven Public Transport Route Optimization for Sustainable Cities (SDG 11)
+
+SDG Problem Addressed:
+Inefficient urban public transport systems lead to increased travel times, pollution, and limited accessibility. UN SDG 11 seeks to make cities more inclusive, safe, resilient, and sustainable—improving transport efficiency is vital for this.
+
+Machine Learning Approach Used:
+
+Unsupervised Learning: KMeans clustering groups bus stops into clusters/zones.
+
+Each cluster can be served by a dedicated route, improving efficiency and reducing redundancy.
+
+Results visualized using interactive Folium maps.
+
+Results:
+
+Bus stops were effectively clustered into 4 distinct regions, based on geographic proximity.
+
+Visual route clusters can be used to redesign or optimize transit routes.
+
+This method scales to larger datasets with real-time GPS or demand data.
+
+Ethical Considerations:
+
+Data Privacy: Real-world deployment must ensure user mobility data is anonymized.
+
+Equity: Optimization should consider underserved communities to avoid deepening transport inequality.
+
+Bias: Ensure algorithms do not exclude low-income or less densely populated areas.
